@@ -16,7 +16,7 @@ void example_graph() {
 }
 ```
 
-![](uploads/images/graph.png = 500x)
+<img src="uploads/images/graph.png" alt="drawing" width="400"/>
 
 `TObject`의 `Draw([옵션])` 함수는 옵션이 매우 다양한데
 ([TGraphPainter](https://root.cern.ch/doc/master/classTGraphPainter.html))
