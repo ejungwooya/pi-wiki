@@ -2,10 +2,7 @@
 
 ### TFile 열고 닫기
 
-[TFile](https://root.cern.ch/doc/master/classTFile.html)은 `TObject`의 파생클래스를 (아마도 `TDirectoryFile` 파생클래스를 제외하고)
-모두 저장할 수 있는 파일 클래스이다.
-`TFile`을 통해서 읽고 쓰는 파일을 루트 파일이라고 하며 `.root` 확장자를 사용하여 구분한다.
-`TFile`의 정의는 다음과 같다.
+[TFile](https://root.cern.ch/doc/master/classTFile.html)은 `TObject`의 파생클래스를 (아마도 `TDirectoryFile` 파생클래스를 제외하고) 모두 저장할 수 있는 파일 클래스이다.  `TFile`을 통해서 읽고 쓰는 파일을 루트 파일이라고 하며 `.root` 확장자를 사용하여 구분한다.  `TFile`의 정의는 다음과 같다.
 
 ### 읽기 위해서 파일 열기
 ```c++
@@ -16,8 +13,7 @@ TFile *file = new TFile("file.root","read");
 ```c++
 TFile *file = new TFile("file.root","recreate");
 ```
-첫번째 매개변수는 루트 파일의 이름, 두번째는 옵션으로, 파일을 쓸때는 "recreate", 읽을때는 "read"를 사용한다.
-파일을 닫을 때는 `Close()` 함수를 사용한다.
+첫번째 매개변수는 루트 파일의 이름, 두번째는 옵션으로, 파일을 쓸때는 "recreate", 읽을때는 "read"를 사용한다.  파일을 닫을 때는 `Close()` 함수를 사용한다.
 
 ### 파일 닫기
 
@@ -43,8 +39,7 @@ void writeRootFile() {
 }
 ```
 
-개별적으로 `TObject`를 저장하고자 할 때는 `TObject의 Write()` 함수를 사용한다.
-위 예제에서 hist1만을 파일에 저장할 때는 다음과 같다.
+개별적으로 `TObject`를 저장하고자 할 때는 `TObject의 Write()` 함수를 사용한다.  위 예제에서 hist1만을 파일에 저장할 때는 다음과 같다.
 
 ```c++
 void writeRootFile2() {
@@ -59,8 +54,8 @@ void writeRootFile2() {
     file -> Close();
 }
 ```
-일을 하다보면 `TFile`을 두개 이상 열 때도 있다.
-이때 `TObject`를 저장할 파일을 지정하기 위해서 `TFile` 의 `cd()` 함수를 사용한다.
+
+일을 하다보면 `TFile`을 두개 이상 열 때도 있다.  이때 `TObject`를 저장할 파일을 지정하기 위해서 `TFile` 의 `cd()` 함수를 사용한다.
 
 ```c++
 void writeRootFile3() {
@@ -99,11 +94,7 @@ TFile **                   file.root
     KEY: TH1D         histogram2;1     second histogram
 root [2]
 ```
-이후에 `.ls` 명령어를 사용하면 파일안의 내용을 볼 수 있다.
-자세한 내용은 생략하도록 하고 파일에 저장된 `TObject`는 **KEY:** 라는 문구로 시작하는 줄에서 확인할 수 있다.
-그 이후에 따라오는 정보는 - [클래스] [이름];[싸이클 번호] [타이틀] - 순이다.
-[싸이클 번호]는 몇번을 저장했는지에 따라서 결정되는 숫자다.
-커맨드 라인에서는 `TObject`의 [이름]을 c++에서 하나의 변수처럼 그대로 사용할 수 있다.
+이후에 `.ls` 명령어를 사용하면 파일안의 내용을 볼 수 있다.  자세한 내용은 생략하도록 하고 파일에 저장된 `TObject`는 **KEY:** 라는 문구로 시작하는 줄에서 확인할 수 있다.  그 이후에 따라오는 정보는 - [클래스] [이름];[싸이클 번호] [타이틀] - 순이다.  [싸이클 번호]는 몇번을 저장했는지에 따라서 결정되는 숫자다.  커맨드 라인에서는 `TObject`의 [이름]을 c++에서 하나의 변수처럼 그대로 사용할 수 있다.
 
 ```bash
 root [2] histogram1 -> Draw()
@@ -120,9 +111,7 @@ root [5]
 ```
 `TBrowser`는 상당히 직관적이므로 설명은 생략한다.
 
-매크로를 이용해서 파일을 읽고 `TObject`를 가져올때는 `TFile`의 `Get([이름])` 함수를 이용한다.
-이때 주의할 점은 `Get()` 함수가 객체를 `TObject`의 형태로 반환하므로 형변환을 해 주어야 한다는 점이다.
-`TH1D`를 가져오는 경우 다음과 같다.
+매크로를 이용해서 파일을 읽고 `TObject`를 가져올때는 `TFile`의 `Get([이름])` 함수를 이용한다.  이때 주의할 점은 `Get()` 함수가 객체를 `TObject`의 형태로 반환하므로 형변환을 해 주어야 한다는 점이다.  `TH1D`를 가져오는 경우 다음과 같다.
 
 ```c++
 void readFile() {
