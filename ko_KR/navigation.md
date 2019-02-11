@@ -28,11 +28,11 @@
   * [실행](pages/root1.md)
   - - - -
   * # 보조클래스
-  * [TObject](pages/root1.1.md)
-  * [TString](pages/root1.2.md)
-  * [TVector3](pages/root1.3.md)
-  * [TMath](pages/root1.4.md)
-  * [TRandom](pages/root1.5.md)
+  * [TObject](pages/root2.1.md)
+  * [TString](pages/root2.2.md)
+  * [TVector3](pages/root2.3.md)
+  * [TMath](pages/root2.4.md)
+  * [TRandom](pages/root2.5.md)
 
 <!-- A more complex navigation example: ----------------------------------------
 
