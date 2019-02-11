@@ -19,7 +19,10 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
-[ROOT 가이드](pages/root.md)
+[ROOT 가이드]()
+
+  * [들어가며](pages/root.md)
+  - - - -
   * [컨벤션 & 타입](pages/root0.md)
   - - - -
   * [실행](pages/root1.md)
@@ -30,7 +33,6 @@
   * [TVector3](pages/root1.3.md)
   * [TMath](pages/root1.4.md)
   * [TRandom](pages/root1.5.md)
-  - - - -
 
 <!-- A more complex navigation example: ----------------------------------------
 
