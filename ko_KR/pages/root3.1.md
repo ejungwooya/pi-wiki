@@ -2,7 +2,7 @@
 
 ## 3.1.1 히스토그램 (Histogram) 의 정의
 
-![](uploads/images/histogram0.png)
+![](uploads/images/histogram0.png = 500x)
 > `그림 3.1` 20개의 빈을 가지고 있는 히스토그램
 
 히스토그램은 어떠한 변수에 대해서 구간별 빈도수를 나타낸 그래프다.
@@ -17,10 +17,10 @@
 또 표본의 크기가 한정적일 수록 변수 분포의 경향을 보기가 어려워 지는데 이때 각 구간의 넓이가 중요해진다.
 가령 앞선 예제의 히스토그램을 그릴 때 10개의 구간이 아닌 4개, 혹은 50개의 구간으로 나누었을 경우 다음과 같은 결과가 나온다.
 
-![](uploads/images/histogram1.png)
+![](uploads/images/histogram1.png = 500x)
 > `그림 3.2` 4개의 빈을 가지고 있는 히스토그램
 
-![](uploads/images/histogram2.png)
+![](uploads/images/histogram2.png = 500x)
 > `그림 3.3` 50개의 빈을 가지고 있는 히스토그램
 
 변수 x의 분포가 정규분포(가우시안 분포, Gaussian Distribution)에 가깝다고 가정해보자.
@@ -61,7 +61,7 @@ ROOT의 [TH1](https://root.cern.ch/doc/master/classTH1.html)
 [TH1 클래스 레퍼런스](https://root.cern.ch/doc/master/classTH1.html)를 먼저 찾아보는 것이 좋다.
 아래는 히스토그램 클래스 상속 다이어그램 이다.
 
-![](uploads/images/TH1_diagram.png)
+![](uploads/images/TH1_diagram.png = 500x)
 > 히스토그램 클래스 상속 다이어그램 (출처: ROOT User's Guide - 3.1 The Histogram Classes)
 
 히스토그램 클래스의 이름은 `TH[차원][타입]` 의 형태로 되어 있으며 각 문자(단어)는
@@ -112,7 +112,7 @@ Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
 root [1]
 ```
 
-![](uploads/images/histogram_empty.png)
+![](uploads/images/histogram_empty.png = 500x)
 > 비어있는 histogram
 
 위 출력에서 메세지
@@ -147,5 +147,5 @@ void example_histogram() {
 }
 ```
 
-![](uploads/images/histogram_filled.png)
+![](uploads/images/histogram_filled.png = 500x)
 > 값이 채워진 histogram. example_histogram() 함수의 출력.

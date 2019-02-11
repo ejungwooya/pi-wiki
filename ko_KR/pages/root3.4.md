@@ -24,7 +24,7 @@ void example_function() {
 
 `[수식]`이 따옴표 안에 들어간다는 점을 기억하자.
 
-![](uploads/images/function1.png)
+![](uploads/images/function1.png = 500x)
 
 앞서 생성자에서 사용한 범위 0 부터 10 은 그림을 그릴 때를 위한 범위일 뿐 함수 자체는 범위에 제한 되지 않는다.
 `Eval(x)` 함수를 통하여 지정한 범위 외의 x에서 값을 확인 할 수 있다.
@@ -56,7 +56,7 @@ void example_function() {
 }
 ```
 
-![](uploads/images/function2.png)
+![](uploads/images/function2.png = 500x)
 
 
 기울기에 해당하는 0번 변수를 0.5로 두고 y절편에 해당하는 1번 변수를 12로 두었으므로 최종 함수의 형태는

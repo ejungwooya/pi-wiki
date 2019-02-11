@@ -11,7 +11,7 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)
   -->
 
-[gimmick:theme](spacelab)
+[gimmick:theme](bootstrap)
 
 
 <!--
@@ -33,6 +33,7 @@
   * [TVector3](pages/root2.3.md)
   * [TMath](pages/root2.4.md)
   * [TRandom](pages/root2.5.md)
+  - - - -
   * # 분석 클래스
   * [히스토그램 TH1](pages/root3.1.md)
   * [그림판 TCanvas](pages/root3.2.md)
@@ -79,6 +80,7 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
+[gimmick:themechooser](Choose theme)
 <!--
 [gimmick:themechooser](Choose theme)
 -->
