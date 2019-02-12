@@ -2,6 +2,6 @@
   "additionalFooterText": "All content and images &copy; by ejungwoo &nbsp;",
   "anchorCharacter": "#",
   "lineBreaks": "gfm",
-  "title": "Physics works ;-)",
-  "useSideMenu": false
+  "title": "physics works ;-)",
+  "useSideMenu": true
 }

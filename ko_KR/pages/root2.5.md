@@ -21,3 +21,8 @@ Double_t random_number1 = gRandom -> Uniform(1);​
 Double_t random_number2 = gRandom -> Gaus(0,2);
 ```
 추가로 나중에 함수 클래스 TF1을 배우면 `TF1::GetRandom()` 함수를 이용하여 함수 분포에서 무작위 숫자를 생성하는 것도 가능하다.
+
+---
+
+[이전](root2.4.md) 
+[다음](root3.1.md)

@@ -15,3 +15,8 @@ Namespace인 `TMath`는 물리를 하면서 흔히 쓰이는 상수와 함수를
 여기서 몇가지 기능을 소개하는 것 보다 직접 목록을 들여다 보는 것이 쉽고 빠르다.
 
 * [TMath](https://root.cern.ch/root/html524/TMath.html)
+
+---
+
+[이전](root2.3.md)
+[다음](root2.5.md)

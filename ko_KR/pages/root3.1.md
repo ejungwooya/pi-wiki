@@ -115,3 +115,8 @@ void example_histogram() {
 ```
 
 <img src="uploads/images/histogram_filled.png" alt="drawing" width="400"/>
+
+---
+
+[이전](root2.5.md)
+[다음](root3.2.md)

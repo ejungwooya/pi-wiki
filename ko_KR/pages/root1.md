@@ -47,9 +47,9 @@ root [] .q
 > root macro.C\(37\)
 ```
 파일을 실행할 때 아래와 같은 옵션을 사용할 수 있다.  
-- `-q` : 파일 실행후 ROOT를 종료
-- `-b` : 그래픽을 사용하지 않음
-- `-l` : ROOT 로고와 정보 스크린을 띄우지 않음
+* `-q` : 파일 실행후 ROOT를 종료
+* `-b` : 그래픽을 사용하지 않음
+* `-l` : ROOT 로고와 정보 스크린을 띄우지 않음
 
 더 많은 옵션은 [다음](https://root.cern.ch/root/htmldoc/guides/users-guide/GettingStarted.html#start-and-quit-a-root-session) 을 참고하자.
 
@@ -78,5 +78,7 @@ Hello ROOT!
 root [1]  
 ```
 
-## [이전](root0.md)
-## [다음](root2.1.md)
+---
+
+[이전](root0.md)
+[다음](root2.1.md)

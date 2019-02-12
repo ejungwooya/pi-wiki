@@ -26,5 +26,7 @@
 
 Unsinged 타입은 앞에 **U** 를 붙인다: `UChar_t`, `UShort_t`, `UInt_t`, `ULong64_t`.
 
-## [이전](root.md)
-## [다음](root1.md)
+---
+
+[이전](root.md)
+[다음](root1.md)

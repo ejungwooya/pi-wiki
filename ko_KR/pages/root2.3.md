@@ -50,3 +50,8 @@ TVector3 unitV3 = v.Unit();
 - `void SetTheta(Double_t theta)`
 
 이외의 함수는 [클래스 레퍼런스](https://root.cern.ch/doc/master/classTVector3.html)를 참조하자.
+
+---
+
+[이전](root2.2.md)
+[다음](root2.4.md)
