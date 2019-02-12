@@ -15,21 +15,21 @@ histogram -> Draw();
 ```
 그림판을 저장하고 싶을 때는 `TCanvas`의 `SaveAs([파일 이름])` 함수를 이용하면 된다.  `TCanvas`는 저장할 수 있는 포맷의 종류가 상당히 다양한데 알아두면 좋으므로 나열해 보겠다.  파일의 포맷은 파일 이름의 확장자를 인식하여 결정한다.
 
-* 참고: [TPad::SaveAs](https://root.cern.ch/doc/master/classTPad.html#ac53122e6b3fe76f52c379178482236dd)
+참고: [TPad::SaveAs](https://root.cern.ch/doc/master/classTPad.html#ac53122e6b3fe76f52c379178482236dd)
 
-- `.ps` (기본)
-- `.eps`
-- `.pdf`
-- `.svg`
-- `.tex`
-- `.gif`
-- `.gif+[번호]` : [번호] 순서로 애니메이션 gif 생성
-- `.xpm`
-- `.png`
-- `.jpg`
-- `.C`
-- `.root`
-- `.xml`
+* `.ps` (기본)
+* `.eps`
+* `.pdf`
+* `.svg`
+* `.tex`
+* `.gif`
+* `.gif+[번호]` : [번호] 순서로 애니메이션 gif 생성
+* `.xpm`
+* `.png`
+* `.jpg`
+* `.C`
+* `.root`
+* `.xml`
 
 이중에서 `.C`와 `.root`는 코드와 루트파일을 생성하므로 사실상 데이터를 저장하는 것이다.  만약에 그림이 나중에 스타일을 고쳐서 다시 그려야 할 수도 있는 그림이라면 이 형식으로 저장해 두거나 아예 ROOT 파일안에 저장해 두면 매우 유용하다.
 
