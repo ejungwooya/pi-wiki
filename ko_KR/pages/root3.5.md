@@ -1,25 +1,35 @@
 ## 3.5 ROOT 파일과 TFile 클래스
 
+---
+
 ### TFile 열고 닫기
 
 [TFile](https://root.cern.ch/doc/master/classTFile.html)은 `TObject`의 파생클래스를 (아마도 `TDirectoryFile` 파생클래스를 제외하고) 모두 저장할 수 있는 파일 클래스이다.  `TFile`을 통해서 읽고 쓰는 파일을 루트 파일이라고 하며 `.root` 확장자를 사용하여 구분한다.  `TFile`의 정의는 다음과 같다.
 
+---
+
 ### 읽기 위해서 파일 열기
 ```c++
-TFile *file = new TFile("file.root","read");
+TFile* file = new TFile("file.root","read");
 ```
+
+---
 
 ### 쓰기 위해서 파일 열기
 ```c++
-TFile *file = new TFile("file.root","recreate");
+TFile* file = new TFile("file.root","recreate");
 ```
 첫번째 매개변수는 루트 파일의 이름, 두번째는 옵션으로, 파일을 쓸때는 "recreate", 읽을때는 "read"를 사용한다.  파일을 닫을 때는 `Close()` 함수를 사용한다.
+
+---
 
 ### 파일 닫기
 
 ```c++
-file.Close();
+file->Close();
 ```
+
+---
 
 ### TFile에 TObject 쓰기
 
@@ -77,6 +87,8 @@ void writeRootFile3() {
     file2 -> Close();
 }
 ```
+
+---
 
 ### TFile에서 TObject 읽기
 
