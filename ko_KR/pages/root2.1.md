@@ -5,10 +5,11 @@
 ### TObject
 
 ROOT의 거의 모든 클래스는 [TObject](https://root.cern.ch/doc/master/classTObject.html) 클래스로 부터 파생된다.  이러한 ROOT 클래스 구조의 장점은 파생클래스에 공동적인 동작을 제공하면서 일관성을 제공한다는 것이다.  아래 소개하는 TObject는 멤버 함수들은 자주 보게 될 함수들이므로 눈에 익혀두자.
-* I/O: `Read()`, `Write()`​
-* 프린팅: `Print()`​
-* 그리기: `Draw(`)
-* 클리어: `Clear()`​
+
+* I/O: `Read()`, `Write()`
+* 프린팅: `Print()`
+* 그리기: `Draw()`
+* 클리어: `Clear()`
 * 정렬: `IsSortable()`, `Compare()`, `IsEqual()`
 
 ROOT [메뉴얼](https://root.cern.ch/root/htmldoc/guides/users-guide/ROOTUsersGuide.html#tobject) 에서는 약 10가지 종류의 함수들을 소개 하였지만 일단은 위 함수정도만 알아두어도 도움이 될 것이다.  이 외에도 [TObject 클래스 레퍼런스](https://root.cern.ch/doc/master/classTObject.html) 에 나온 함수들은 모두 공통적으로 적용되며 파생 클래스에 따라서 그 기능이 달라질 수 있으니 **항상 클래스 레퍼런스를 잘 찾아보고 사용하도록 하자.**
